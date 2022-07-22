@@ -25,7 +25,6 @@ if __name__ == "__main__":
                                         "pos": info["pos"]
                                         })
 
-
         for maskImgPath in glob(maskFolder+"//*.jpg"):
             idx = int(maskImgPath.split("mask_")[1].split(".")[0])-1
             print(maskImgPath)
